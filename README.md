@@ -151,7 +151,7 @@ Deletes all data for the current session in the session store.
 ### session.destroy([callback])
 Deletes all data for the current session in the session store and will also remove the session cookie from the client.
 
-`callback` may be omitted and the operation will still be performed.
+`callback` may be omitted and the operation will still be performed..
 
 `destroy()` is always asynchronous.
 
