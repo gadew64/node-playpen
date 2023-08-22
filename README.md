@@ -104,7 +104,7 @@ MemoryStore takes an optional `options` object that can be used to override the 
 -------------------------
 
 ### session.get(key[, callback])
-Get the object stored as `key` for the current session in the session store. Automatically updates the expires time for this session.
+Get the object stored as `key` for the current session in the session store. Automatically updates the expires time for this session..
 
 If the `callback` is not provided then it will simply perform an expiry time update. If you just provide a `callback` and no `key` then it operates as an alias for `getAll()`.
 
